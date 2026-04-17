@@ -5,12 +5,12 @@
 - Base layout with nav + footer
 - Placeholder content on all pages
 - Cloudflare Pages deployment
+- Home page copy (2026-04-17)
 
 ## In progress
 - (none)
 
 ## Queued for V1
-- Home page copy
 - About page copy
 - Contact page copy
 - OpenBrain page copy
