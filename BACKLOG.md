@@ -8,12 +8,12 @@
 - Home page copy (2026-04-17)
 - About page copy finalized and implemented (2026-04-17)
 - Contact page copy finalized and implemented (2026-04-17)
+- OpenBrain page copy finalized and implemented (2026-04-17)
 
 ## In progress
 - (none)
 
 ## Queued for V1
-- OpenBrain page copy
 - Writing section (markdown-driven)
 - llms.txt
 - JSON-LD structured data
