@@ -7,10 +7,12 @@ import Base from "../layouts/Base.astro";
 	<p>OpenBrain is my attempt to build a private, AI-powered memory system around the way I actually think and work.</p>
 	<p>The problem was simple. My notes, ideas, and tasks don’t arrive in one language or one format, and none of the tools I used connected them into one system. Every AI I tried forgot me the moment I closed the chat.</p>
 	<p>So I built my own.</p>
+	<img src="/assets/images/openbrain-architecture.svg" alt="High-level architecture diagram of OpenBrain showing capture surfaces, core services, proactive routines, and external LLMs." style="max-width: 100%; height: auto;" />
 	<p>OpenBrain captures thoughts as text or voice through Telegram, stores them in my own database, tags them automatically, and makes them available across different interfaces depending on what I need. When I want to think with the data, I query it through an LLM interface. When I want to inspect it visually, I use Google Sheets. The system also runs scheduled routines on its own, including a morning briefing and a weekly reflection that surfaces patterns I would otherwise miss.</p>
 	<p>I came to this work from an operating background, not a technical one. I designed the system, made the architectural decisions, and used AI agents to build, deploy, and improve it.</p>
 	<p>Within days, I had 250+ journal entries in a database, voice capture, auto-tagging across multiple languages, weekly pattern detection, and a daily morning briefing.</p>
 	<p>What this project clarified for me is that the hard part is not making AI smart. The hard part is getting your life or work into a form AI can reason about.</p>
 	<p>That principle scales beyond personal use. Build the capture layer. Rent the intelligence. Keep the architecture simple enough to adapt. Swap Telegram for Slack, Google Sheets for Notion or Confluence, and the same logic becomes organizational rather than personal.</p>
+	<p>The repository is public on <a href="https://github.com/yarmakdima-dev/openbrain-public">GitHub</a> for anyone who wants to explore or adapt the architecture.</p>
 	<p>OpenBrain is still evolving, but the core lesson is already clear: the gap between “non-technical” and “building real systems” is smaller than it looks with the right AI collaborators.</p>
 </Base>

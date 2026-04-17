@@ -9,6 +9,7 @@
 - About page copy finalized and implemented (2026-04-17)
 - Contact page copy finalized and implemented (2026-04-17)
 - OpenBrain page copy finalized and implemented (2026-04-17)
+- OpenBrain architecture visual and public GitHub link added (2026-04-17)
 
 ## In progress
 - (none)
