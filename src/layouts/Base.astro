@@ -1,0 +1,46 @@
+---
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+	</head>
+	<body>
+		<nav>
+			<a href="/">Home</a>
+			<a href="/openbrain">OpenBrain</a>
+			<a href="/writing">Writing</a>
+			<a href="/about">About</a>
+			<a href="/contact">Contact</a>
+		</nav>
+		<main>
+			<slot />
+		</main>
+		<footer>© 2026 Dima Yarmak</footer>
+	</body>
+</html>
+
+<style>
+	body {
+		font-family:
+			system-ui,
+			-apple-system,
+			BlinkMacSystemFont,
+			"Segoe UI",
+			sans-serif;
+	}
+
+	main {
+		max-width: 720px;
+		margin: 0 auto;
+	}
+</style>
