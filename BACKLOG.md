@@ -6,12 +6,12 @@
 - Placeholder content on all pages
 - Cloudflare Pages deployment
 - Home page copy (2026-04-17)
+- About page copy finalized and implemented (2026-04-17)
 
 ## In progress
 - (none)
 
 ## Queued for V1
-- About page copy
 - Contact page copy
 - OpenBrain page copy
 - Writing section (markdown-driven)
